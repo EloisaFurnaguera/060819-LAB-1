@@ -71,6 +71,7 @@ showBalance(transactions)
 // Add function to show transactions
 
 function showTran(Map){
+    
 
     console.log (Map)
 }
