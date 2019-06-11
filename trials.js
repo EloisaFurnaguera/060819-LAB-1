@@ -12,6 +12,10 @@ const addresses = ["123 Main Street", "683 Sutter Street", "1600 Pennsylvania Av
 const phoneNumbers = new Map();
 
 // Add some phone numbers to our map
+        phoneNumbers.set('home', '510-867-5309');
+        phoneNumbers.set('mobile', '415-555-1212');
+        phoneNumbers.set('business', '415-123-4567');
+
 
 
 // ///////////////////////////////////////////////////////
@@ -33,6 +37,21 @@ console.log(`Business Address: ${businessName}`);
 
 // console.log(printUserInfo('gaga', 646446, 'yeyeeh'))
 
+const bisnessPhoneNumbers = new Map;
+
+    
+
+
+
+function showPhoneNums(phones){
+
+    for (let[phone, number] of phoneNumbers){
+        console.log(`${phone}, ${number}`);
+}
+  
+    }
+// showPhoneNums()
+
 
 
 // ///////////////////////////////////////////////////////
@@ -40,6 +59,7 @@ console.log(`Business Address: ${businessName}`);
 
 // Create an empty map of transactions
 const transactions = new Map ()
+
 
 
 // Add function to add transactions
